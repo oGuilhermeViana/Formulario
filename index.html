@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário com HTML e CSS</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="container">
+    <form action="#">
+      <fieldset>
+        <legend><strong>Formulário de clientes</strong></legend><br>
+
+        <div class="inputBox">
+          <input type="text" name="name" class="inputUser" required>  
+          <label for="name" class="labelInput">Nome</label>
+        </div>
+
+        <div class="inputBox">
+          <input type="text" name="email" class="inputUser" required>  
+          <label for="email" class="labelInput">E-mail</label>
+        </div>
+
+        <div class="inputBox">
+          <input type="tel" name="tel" class="inputUser" required>  
+          <label for="tel" class="labelInput">Telefone</label>
+        </div>
+
+        <p>Sexo:</p>
+        <input type="radio" name="gender" id="female" value="female" required>
+        <label for="female">Feminino</label>
+        
+        <input type="radio" name="gender" id="male" value="male" required>
+        <label for="male">Masculino</label>
+        
+        <input type="radio" name="gender" id="other" value="other" required>
+        <label for="other">Outro</label>
+
+        <br><br>
+        <label for="birthDate"><b>Data de nascimento:</b></label>
+        <input type="date" name="birthDate" id="birthDate" required>
+      
+
+        <div class="inputBox">
+          <input type="text" name="city" class="inputUser" required>  
+          <label for="city" class="labelInput">Cidade</label>
+        </div>
+
+        <div class="inputBox">
+          <input type="text" name="state" class="inputUser" required>  
+          <label for="state" class="labelInput">Estado</label>
+        </div>
+        
+        <div class="inputBox">
+          <input type="text" name="address" class="inputUser" required>  
+          <label for="address" class="labelInput">Endereço</label>
+        </div>
+
+        <button>Enviar</button>
+      </fieldset>
+    </form>
+  </div>
+</body>
+</html>
